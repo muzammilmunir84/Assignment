@@ -1,0 +1,125 @@
+/* Reset styles */
+* {
+    
+    box-sizing: border-box;
+    /* margin: -17px;
+    padding: 20px; */
+
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #000000;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  nav .logo {
+    color: #f7f4f4;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fffcfc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #f44336;
+  }
+  
+  body{
+margin: opx;;
+padding: opx;
+background: url(https://images.pexels.com/photos/669584/pexels-photo-669584.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+background-size: cover;
+  }
+  
+  
+
+  /* Main styles */
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .hero-section {
+
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #f7f7ff;
+    padding: 100px 0;
+  }
+  
+  .hero-section h1 {
+    font-size: 60px;
+    margin: 0;
+  }
+  
+  .hero-section p {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+
+
+  
+  .container {
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 50%;
+    border-radius: 35px;
+
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+
+.footer{
+    color: #f7f4f4;
+}
